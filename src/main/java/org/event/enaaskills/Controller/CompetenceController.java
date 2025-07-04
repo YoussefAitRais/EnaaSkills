@@ -65,4 +65,6 @@ public class CompetenceController {
     public ResponseEntity<List<CompetenceStatusDTO>> getDashboard() {
         return ResponseEntity.ok(competenceService.getCompetenceDashboard());
     }
+
+
 }

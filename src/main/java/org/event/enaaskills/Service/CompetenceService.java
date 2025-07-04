@@ -63,4 +63,7 @@ public class CompetenceService {
                 .map(CompetenceMapper::toStatusDTO)
                 .collect(Collectors.toList());
     }
+
+
+
 }
